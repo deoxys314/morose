@@ -10,3 +10,9 @@ minimum it's functional!
 
 As per the license, feel free to use for whatever you want, so long as you
 include the same license.
+
+Possible todos
+--------------
+
+- [ ] add support for punctuation
+- [ ] add flag to print out morse table
