@@ -1,0 +1,21 @@
+[package]
+name = "morose"
+version = "0.1.0"
+authors = ["Cameron Rossington <cameron.rossington@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "moroselib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "morose"
+path = "src/main.rs"
+
+[dependencies]
+phf = { version = "0.8.0", features = ["macros"] }
+clap = "2.33"
+lazy_static = "1.4.0"
+
+[dev-dependencies]
+assert_cmd = "1.0"
