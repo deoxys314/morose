@@ -97,7 +97,7 @@ mod test {
             .expect("Failed to execute process.");
         assert_eq!(
             str::from_utf8(&output.stdout).expect("Failed to convert output into a &str."),
-            "\n"
+            ""
         );
     }
 
